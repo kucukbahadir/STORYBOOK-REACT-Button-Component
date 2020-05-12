@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(229, 246, 253);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,17 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  font-family: fantasy;
+  font-weight: 800;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: transparent;
+  padding: 16px 30px;
+  margin:10px 10px;
+  font-size: 18px;
+  color: blueviolet;
+  border: 4px solid blueviolet;  
 }
